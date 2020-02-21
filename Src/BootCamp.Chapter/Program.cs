@@ -27,7 +27,7 @@ namespace BootCamp.Chapter
                 Console.WriteLine();
             }
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
