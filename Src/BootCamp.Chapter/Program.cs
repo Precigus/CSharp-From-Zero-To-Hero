@@ -6,7 +6,9 @@ namespace BootCamp.Chapter
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 2; i++)
+            int personCount = 2;
+
+            for (int i = 0; i < personCount; i++)
             {
                 Console.Write("Input your first name: ");
                 string firstName = Console.ReadLine();
